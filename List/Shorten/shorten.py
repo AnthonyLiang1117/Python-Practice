@@ -3,7 +3,9 @@ MAX_LENGTH = 3
 
 def shorten(lst, max_len):
     # delete the pass statement below and write your code here!
-    pass
+    while len(lst) > max_len:
+        popped = lst.pop()
+        print(popped)
 
 def main():
     shorten(SAMPLE_LIST, MAX_LENGTH)

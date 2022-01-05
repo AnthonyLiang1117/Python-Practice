@@ -9,7 +9,11 @@ def find_karel(roster):
     Karel is here!
     """
     # delete the pass statement below and write your code here!
-    pass
+    karel = "karel"
+    if karel in roster:
+        print("Karel is here!")
+    else:
+        print("Karel isn't here.")
 
 def main():
     # delete the pass statement below and write your code here!

@@ -9,7 +9,11 @@ def count_even(lst):
     0
     """
     # delete the pass statement below and write your code here!
-    pass
+    count = 0;
+    for element in lst:
+        if element % 2 == 0:
+            count += 1
+    print(count)
 
 def main():
     count_even(SAMPLE_LIST)
